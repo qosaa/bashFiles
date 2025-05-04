@@ -2,3 +2,7 @@ if [ -z "$1" ]; then
     echo "Usage: $0 <filename>"
     exit 1
 fi
+
+if [ -z "$2" ]; then
+    echo "Need an output file name"
+    exit
